@@ -1,6 +1,9 @@
 # Desafio do Amigo Secreto
 
-![Imagem do jogo](./assets/jg_amigo_Oculto.png)
+ <p align="center">
+  <img src="./assets/jg_amigo_Oculto.png" width="350">
+</p>
+
 Projeto de sorteios de amigo secreto
 
 ## Indice
