@@ -17,10 +17,32 @@
 
 body {
   height: 100vh;
-  background-color: var(--color-primary);
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  background: linear-gradient(45deg, #474e93, #7e5cad, #72baa9, #d5e7b5);
+  background-size: 300% 300%;
+  animation: color 12s ease-in-out infinite;
+}
+@keyframes color {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+
+/*teste caixa*/
+.contener {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 450px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  background: #eee8ff;
+  padding: 55px;
+  border-radius: 12px;
 }
 
 .main-content {
@@ -54,18 +76,18 @@ body {
 
 /* Títulos */
 .main-title {
-  font-size: 48px;
-  font-family: "Merriweather", serif;
+  font-size: 95px;
+  font-family: "Matura MT Script Capitals", serif;
   font-weight: 900;
   font-style: italic;
-  color: var(--color-white);
+  color: #eeeeee;
 }
 
 .section-title {
-  font-family: "Inter", serif;
-  font-size: 36px;
+  font-family: "Matura MT Script Capitals", serif;
+  font-size: 40px;
   font-weight: 700;
-  color: var(--color-primary);
+  color: #7200bece;
   margin: 10px 0;
   text-align: center;
 }
@@ -136,8 +158,8 @@ ul {
 
 .result-list {
   margin-top: 15px;
-  color: #05df05;
-  font-size: 22px;
+  color: #7200bece;
+  font-size: 42px;
   font-weight: bold;
   text-align: center;
 }
@@ -159,4 +181,8 @@ ul {
 
 .button-draw:hover {
   background-color: var(--color-button-hover);
+}
+
+.logo img {
+  width: 300px;
 }

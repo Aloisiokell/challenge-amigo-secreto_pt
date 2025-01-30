@@ -17,11 +17,15 @@
     <main class="main-content">
       <header class="header-banner">
         <h1 class="main-title">Amigo Secreto</h1>
-        <img
-          src="assets/jg_amigo_Oculto.png"
-          alt="Imagem representativa de
+        <div class="logo">
+          <a href="">
+            <img
+              src="assets/jg_amigo_Oculto.png"
+              alt="Imagem representativa de
         amigo secreto"
-        />
+            />
+          </a>
+        </div>
       </header>
 
       <section class="input-section">
@@ -38,12 +42,15 @@
           </button>
         </div>
 
-        <ul
-          id="listaAmigos"
-          class="name-list"
-          aria-labelledby="listaAmigos"
-          role="list"
-        ></ul>
+        <div class="contener">
+          <ul
+            id="listaAmigos"
+            class="name-list"
+            aria-labelledby="listaAmigos"
+            role="list"
+          ></ul>
+        </div>
+
         <ul id="resultado" class="result-list" aria-live="polite"></ul>
 
         <div class="button-container">
