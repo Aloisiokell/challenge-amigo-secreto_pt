@@ -61,7 +61,7 @@ body {
   padding: 40px 0 0;
 }
 
-/* Seção de entrada */
+/* Seção de entrada*/
 .input-section {
   flex: 60%;
   background-color: var(--color-secondary);
@@ -74,7 +74,7 @@ body {
   width: 100%;
 }
 
-/* Títulos */
+/* Títulos*/
 .main-title {
   font-size: 95px;
   font-family: "Matura MT Script Capitals", serif;
@@ -113,7 +113,6 @@ body {
   width: 300px;
   justify-content: center;
 }
-
 /* Estilos de entrada de texto */
 .input-title {
   flex: 1;
