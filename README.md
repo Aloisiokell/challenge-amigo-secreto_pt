@@ -26,7 +26,7 @@ O objetivo principal deste desafio é inserir nomes em uma lista que é exebida 
 
 ## Layout ⚡
 
-![Tela principal](./assets/Layout_Desafio_secreto.png)
+![Tela principal](./assets/logo_layout.png)
 
 ### Language e tools 🖥️
 
